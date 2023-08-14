@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100;1,300;1,400&display=swap" rel="stylesheet">
-
+  <script src="https://kit.fontawesome.com/a157f31727.js" crossorigin="anonymous"></script>
 
   <style>
     body {
@@ -58,19 +58,33 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="mynavbar">
-        <ul class="navbar-nav me-auto">
+        <ul class="navbar-nav me-auto" style="width: 100%; display: flex; justify-content: space-between;">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Inicio</a>
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="torneos.html">Torneos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jugadores.html">Ranking</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="perfil.html">Perfil</a>
+              </li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="torneos.html">Torneos</a>
+
+            <a class="nav-link text-center" href="acceso.html"
+              style="border: lightblue solid 1px; border-radius: 20px; color: lightblue;">
+              <i class="fa-regular fa-user" style="color: lightblue; margin-right: 5px;"></i>
+              Acceder
+            </a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="jugadores.html">Ranking</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="perfil.html">Perfil</a>
-          </li>
+
+
         </ul>
       </div>
     </div>
